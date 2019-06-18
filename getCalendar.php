@@ -21,7 +21,7 @@ echo "<hr>access_token:".$access_token;
 $user_timezone = $capi->GetUserCalendarTimezone($access_token);
 
 $calendar_id = 'primary';
-$event_title = 'Cita en Clinica Baviera con el médico '.$_SESSION["nom_medico"]." en la calle ".$_SESSION["nom_clinica"];
+$event_title = 'Cita con el médico '.$_SESSION["nom_medico"]." en la calle ".$_SESSION["nom_clinica"];
 
 // Event starting & finishing at a specific time
 $full_day_event = 0; 
